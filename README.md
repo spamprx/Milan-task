@@ -34,3 +34,8 @@ The Firebase and Google Fonts dependencies are loaded directly from their respec
 const firebaseConfig = {
  // Paste your Firebase configuration object here
 };
+
+## Running the Application
+
+-To run the application locally, simply open the task.html file in your web browser. You can do this by either double-clicking the file or using the "Open" or "Open with" option in your browser's menu and navigating to the file.
+-Once the file is open, you should see the Milan Registration Form displayed in your browser window. You can now interact with the form, fill in the required fields, and optionally sign in with your Google account by clicking the "Sign in with Google" button.
