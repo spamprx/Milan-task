@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   background-color: #333;
   font-family: "Poppins", sans-serif;
-  background-image: url("Image.jpg");
+  background-image: url("Image.jpg"); /* Replace with the actual image path */
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -16,6 +16,7 @@ body {
   gap: 20px;
   max-width: 600px;
   width: 100%;
+  height: auto;
   padding-right: 60px;
   padding-left: 40px;
   border-radius: 20px;
@@ -23,7 +24,7 @@ body {
   background-color: #1a1a1a;
   color: #fff;
   border: 1px solid #333;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px #0000004d;
 }
 
 .title {
@@ -38,6 +39,7 @@ body {
   margin-bottom: 20px;
 }
 
+/* Title animation */
 .title::before,
 .title::after {
   position: absolute;
@@ -76,14 +78,14 @@ body {
   width: 100%;
   padding: 25px 15px 10px 15px;
   outline: 0;
-  border: 1px solid rgba(105, 105, 105, 0.397);
+  border: 1px solid #69696965;
   border-radius: 10px;
   font-size: 16px;
 }
 
 .form label .input + span,
 .form label .checkbox-group + span {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffff80;
   position: absolute;
   left: 15px;
   top: 5px;
@@ -125,7 +127,7 @@ body {
   gap: 10px;
   position: relative;
   padding: 10px;
-  border: 1px solid rgba(105, 105, 105, 0.397);
+  border: 1px solid #69696965;
   border-radius: 10px;
   background-color: #333;
 }
@@ -150,10 +152,8 @@ body {
 
 .checkbox-group span {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffffb3;
 }
-
-
 
 .submit {
   border: none;
@@ -186,7 +186,7 @@ body {
   vertical-align: middle;
   align-items: center;
   border-radius: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid #ffffff40;
   gap: 0.75rem;
   color: #c4d2dc;
   background-color: #19242b;
@@ -222,12 +222,12 @@ button svg {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: rgba(
-    255,
-    255,
-    255,
-    0.7
-  ); /* Use the color and font size that matches the rest of the text */
+  color: #ffffffb3;
+}
+
+sup {
+  color: #fa1907;
+  margin: 5px;
 }
 
 @keyframes pulse {
